@@ -1,0 +1,119 @@
+*{
+    margin: 0 px;
+    padding: 0 px;
+}
+body {
+  background-color:plum;
+  font-family: 'Urbanist', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color:teal;
+    margin : 0 auto;
+    padding : 5px;
+}
+header{
+
+}
+.profile{
+    width: 100 px;
+    height: 120px;
+    border: 3 px solid orange;
+    border-radius: 50%;
+    float: left;
+}
+.bio
+{
+    float : left;
+    padding:12px;
+}
+h1,h2,h3,h4,h5,h6{
+    color :red;
+}
+.contact{
+    float :right;
+    color:royalblue;
+    padding-left: 20px;
+}
+.contact  a{
+    text-decoration: none;
+    color: orangered;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact address{
+    color: orangered;
+    font-weight: bolder;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.contact a:hover{
+  color: purple;
+   text-decoration: underline;
+   text-shadow: 5pc;
+}
+.contact address:hover{
+    color:tomato;
+    text-transform: capitalize;
+}
+.clear
+{
+    clear:both;
+}
+hr{
+    border:3px solid red;
+    width:100%;
+    border-bottom: none;
+    margin: 20px auto;
+}
+/*------------------------------
+personal section*/
+.content
+{
+ margin-bottom: 30px;
+}
+.left
+{
+    width : 30%;
+    float :left;
+}
+.right
+{
+    width : 70%;
+    float :left;
+    font-weight: bold;
+    
+}
+.common-hr
+{
+    border:1px solid black;
+    border-bottom: none;
+    margin:20px auto;
+    width:100%;
+}
+abbr{
+    text-decoration: none;
+    color: red;
+}
+abbr:hover{
+    color: purple;
+}
+li{
+    color:darkred;
+    font-weight: bold;
+}
+.bottom-container{
+    background-color: black;
+    text-align: center;
+    padding:15px;
+
+}
+.bottom-container a{
+    color: blanchedalmond;
+    text-decoration: none;
+    margin: 20px; 
+    
+}
+.bottom-container p{
+    color: blanchedalmond;
+    margin-top: 20px;
+}
